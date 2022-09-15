@@ -83,9 +83,9 @@
 
 
 # 11)Write a program to reverse a string word by word.
-a= "a program to reverse a string word by word"
-b=a.split()[::-1]
-print(b)
+# a= "a program to reverse a string word by word"
+# b=a.split()[::-1]
+# print(b)
 
 
 
@@ -102,7 +102,15 @@ print(b)
 
 # 14)Write a program to generate and print a list of the first and last 5 elements where the values
 # are square of numbers between 1 and 30 (both included)
-
+# list_=range(1,30)
+# list1=[]
+# for i in list_:
+#     list1.append(i*i)
+# print(list1)
+# list2=list1[:5]
+# print(list2)
+# list3=list1[-5:]
+# print(list3)
 
 
 
@@ -110,7 +118,17 @@ print(b)
 
 
 # 15)Define index, number, and compare that the number exists in the list for a given index or not?
+
+
+
 # 16)Write a program to find the list of words that are longer than n from a given list of words.
+
+
+
+
+
+
+
 # 17)Write a Python script to concatenate following dictionaries to create a new one
 # Input:
 # dic1={1:10, 2:20}
@@ -118,6 +136,19 @@ print(b)
 # dic3={5:50,6:60}
 # output:
 # {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+
+dict1={1:10,2:20}
+dict2={3:30,4:40}
+dict3={5:50,6:60}
+dict4={}
+for d in(dict1,dict2,dict3):dict4.update(d)
+print(dict4)
+
+
+
+
+
+
 # 18)Write a program to demonstrate all the available operators in python.
 # 19)Write a program to get unique values from a list.
 # 20)Write a program to update the value in a dictionary if the key exists.
