@@ -136,13 +136,13 @@
 # dic3={5:50,6:60}
 # output:
 # {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
-
-dict1={1:10,2:20}
-dict2={3:30,4:40}
-dict3={5:50,6:60}
-dict4={}
-for d in(dict1,dict2,dict3):dict4.update(d)
-print(dict4)
+#
+# dict1={1:10,2:20}
+# dict2={3:30,4:40}
+# dict3={5:50,6:60}
+# dict4={}
+# for d in(dict1,dict2,dict3):dict4.update(d)
+# print(dict4)
 
 
 
@@ -150,6 +150,11 @@ print(dict4)
 
 
 # 18)Write a program to demonstrate all the available operators in python.
+
+a=(2+3,2-3,2*3,2/3,2//3.2%3)
+print(a)
+
+
 # 19)Write a program to get unique values from a list.
 # 20)Write a program to update the value in a dictionary if the key exists.
 # Please let me know if you have any queries.
